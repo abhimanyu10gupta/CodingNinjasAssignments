@@ -12,9 +12,11 @@ public class Question3 {
 		char[] binChar = bin.toCharArray();
 		int dec = 0;
 		
-		for(int i = binChar.length - 1; i >= 0; i--){
+		for(int i = 0; i < binChar.length; i++){
+			System.out.println(binChar[i]);
 			if(binChar[i] == '1'){
-				dec = (int) (dec + Math.pow(2, i));
+				System.out.println(Math.pow(2, binChar.length - i - 1));
+				dec = (int) (dec + Math.pow(2, binChar.length - i - 1));
 			}
 		}
 		System.out.println("Decimal: " + dec);
