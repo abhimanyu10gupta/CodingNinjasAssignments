@@ -1,0 +1,13 @@
+package assignment3;
+
+public class Question2 {
+
+	public static void main(String[] args) {
+		int[] ar = {1,2,3,4,5,6,7,8,9,10}; 
+		int prod = 1;
+		for(int i:ar){
+			prod = prod * i;
+		}
+		System.out.println(prod);
+	}
+}
