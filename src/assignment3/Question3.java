@@ -10,8 +10,7 @@ public class Question3 {
 			ar[ar.length - i -1] = temp;
 		}
 		for(int i : ar){
-			System.out.print(i);
+			System.out.println(i);
 		}
 	}
-
 }
