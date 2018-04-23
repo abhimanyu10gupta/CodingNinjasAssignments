@@ -1,4 +1,5 @@
 package assignment4;
+import helper.Helper; 
 
 public class Question1 {
 	public void insertionSort(int[] arr){
@@ -12,6 +13,6 @@ public class Question1 {
 			}
 			arr[j+1] = key;
 		}
-		
+		Helper.printArray(arr);
 	}
 }
