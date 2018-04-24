@@ -6,7 +6,10 @@ public class Question4 {
 			for(int j : A){
 				for(int k : A){
 					if(i + j + k == x){
-						System.out.println(i+j+k);
+						System.out.print(i);
+						System.out.print(j);
+						System.out.print(k);
+						System.out.println("");
 					}
 				}
 			}
